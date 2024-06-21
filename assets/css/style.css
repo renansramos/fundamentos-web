@@ -37,7 +37,7 @@ body{
     
 }
 
-/*Estilosda página index.html*/
+/*Estilos da página index.html*/
 .center {
     align-items: center;
 }
@@ -83,18 +83,6 @@ footer {
     margin-top: 165px;
 }
 
-
-
-/*Estilosda página contato.html*/
-
-
-
-
-
-
-
-
-
 /*Estilosda página about.html*/
 .text-about{
     text-align: justify;
@@ -136,11 +124,11 @@ h1{
    }
    
    /* Estilosda página contact.html*/
-   .input-group {
+   /* .input-group {
     position: relative;
-   }
+   } */
    
-   .input {
+   /* .input {
     border: solid 1.5px #9e9e9e;
     border-radius: 1rem;
     background: none;
@@ -148,25 +136,39 @@ h1{
     font-size: 1rem;
     color: #f5f5f5;
     transition: border 150ms cubic-bezier(0.4,0,0.2,1);
-   }
+   } */
    
-   .user-label {
+   /* .user-label {
     position: absolute;
     left: 15px;
     color: #e8e8e8;
     pointer-events: none;
     transform: translateY(1rem);
     transition: 150ms cubic-bezier(0.4,0,0.2,1);
-   }
+   } */
    
-   .input:focus, input:valid {
+   /* .input:focus, input:valid {
     outline: none;
     border: 1.5px solid #1a73e8;
-   }
+   } */
    
-   .input:focus ~ label, input:valid ~ label {
+   /* .input:focus ~ label, input:valid ~ label {
     transform: translateY(-50%) scale(0.8);
     background-color: #212121;
     padding: 0 .2em;
     color: #2196f3;
+   } */
+
+   .container-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+   }
+
+   .container-form{
+    margin-right: 100px;
    }
